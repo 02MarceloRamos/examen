@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2do Examen - Nombre</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/indicaciones.css">
+    <script src="js/codigo.js"></script>
+</head>
+<body>
+
+<div class="menu">
+    <a href="#inicio">INICIO</a>
+    <a href="#perfil">PERFIL</a>
+    <a href="#ayuda">AYUDA</a>
+    <a href="#contenido">CONTENIDO</a>
+    <a href="#js">JS</a>
+</div>
+        <div class="autor" id="inicio">
+            <img src="img\perfil.png" alt="" class="fautor" id="fautor">
+            <div id="perfil">
+                <h1 id="autor">LUIS MARCELO RAMOS GARCIA</h1>
+                <h2 class="otrodato">Estudiante de la carrera de Sistemas Informaticos Nivel Tecnico Superior</h2>
+                <h2 class="otrodato">Me gusta el area de redes y la programacion </h2>
+                <h2 class="otrodato">la robotica y le ciber seguridad</h2>
+            </div>
+            <button onclick="cambiar()">Acerca de mi</button>
+        </div>
+    <div id="ayuda">
+        <div class="contenedor">
+            <figure>
+                <img src="img\imagen.png">
+                <div class="capa">
+                    <h3>IMAGENES</h3>
+                    <P>Aqui Podemos ver las Imagenes de la Pagina</P>
+                </div>
+            </figure>
+        
+        </div>
+        <div class="contenedor">
+            <figure>
+                <img src="img\documento.png">
+                <div class="capa">
+                    <h3>DOCUMENTOS</h3>
+                    <P>Aqui Podemos ver todos los Documentos de la Pagina</P>
+                </div>
+            </figure>
+        
+        </div>
+        <div class="contenedor">
+            <figure>
+                <img src="img\video.png">
+                <div class="capa">
+                    <h3>VIDEOS</h3>
+                    <P>Aqui Podemos ver los Videos de la Pagina</P>
+                </div>
+            </figure>
+        
+        </div>
+    </div>
+
+       <table>
+         <div class="redes" id="contenido">
+            
+                  <td>
+                    <div class="red">
+                       <form>  <a href="https://www.facebook.com/" >
+                           <img src="img/facebook.png" width="50px">
+                           
+                       </a></form>
+                    </div> 
+                  </td>
+                <td>
+                     <div class="red">
+                         <form> <a href="https://www.instagram.com/" >
+                             <img src="img/instagram.png" width="50px">
+                         </a></form>
+                     </div> 
+                </td>
+
+             <td>
+                  <div class="red">
+                      <form> <a href="https://www.youtube.com/" >
+                          <img src="img/youtube.png" width="50px">
+                      </a></form>
+                  </div> 
+             </td>
+         </div>  
+       </table>
+        <div class="ti">
+                 <p><h1>EJERCICIOS EN JAVASCRIPT</h1></p>
+        </div>
+        <div id="js">
+              <div class="ej1">
+                <h1>Ejercicio 1 - Crear lista</h1>
+                <input type="text" id="entrada1">
+                <button onclick="agregar()">AGREGAR</button>
+                <p id="resultado1"></p>
+            </div>
+            <div class="ej1">
+                <h1>Ejercicio 2 - Eliminar elementos</h1>
+                <button id="mostrar" onclick="mostrar()">MOSTRAR</button>
+                <button id="ej2" onclick="eliminar()">ELIMINAR</button>
+                <p id="resultado2"></p> 
+            </div>
+            <div class="ej1">
+                <h1>Ejercicio 3 - Ordenar numeros</h1>
+                <input type="text" id="entrada2">
+                <button onclick="agregar2()">AGREGAR</button>
+                <button onclick="ordenar()">Ordenar N&uacute;meros</button>
+                <p id="resultado3"></p>
+            </div>
+            <div class="ej1">
+                <h1>Ejercicio 4 - Ordenar nombres</h1>
+                <input type="text" id="entrada3">
+                <button onclick="agregar3()">AGREGAR</button>
+                <button onclick="ordenar2()">Ordenar Alfabeticamente</button>
+                <p id="resultado4"></p>
+            </div>
+        </div>
+    
+</body>
+</html>
